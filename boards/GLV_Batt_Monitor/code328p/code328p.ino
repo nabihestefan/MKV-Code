@@ -1,6 +1,10 @@
 //Import the Adafruit INA260 libraries for reading current
 #include "Adafruit_INA260.h"
+#include "Adafruit_I2CDevice.h"
+#include "Adafruit_I2CRegister.h"
 
+#include <Wire.h>
+#include <SPI.h>
 
 //Import the SPI library for communication
 #include<SPI.h>  
